@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{42EFA792-BB96-4BA8-82B0-CBE071C94089}|Default">
+  <MonoDevelop.Ide.ItemProperties.MonadTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonadTest/Program.cs">
+    <Files>
+      <File FileName="MonadTest/Program.cs" Line="92" Column="83" />
+      <File FileName="MonadTest/Option.cs" Line="8" Column="9" />
+      <File FileName="MonadTest/OptionExtensions.cs" Line="28" Column="9" />
+      <File FileName="MonadTest/Monad.cs" Line="58" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MonadTest" expanded="True">
+            <Node name="MonadTest" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
