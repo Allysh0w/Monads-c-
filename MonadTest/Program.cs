@@ -88,13 +88,13 @@ namespace MonadTest
             //var reduce = monadList.Reduce(0, (_, x) => _ + x);
 
 
-            const monadList = new IO<Option<int>>[] { IO<Option<int>>.Of(() => Option<int>.Some(3)), IO<Option<int>>.Of(() => Option<int>.Some(3)), IO<Option<int>>.Of(() => Option<int>.Some(3)) };
-            const h = monadList.Fold(Option<int>.Some(0), (_, y) => _.FlatMap(f => y.Map(z => f + z)));
+            var monadList = new IO<Option<int>>[] { IO<Option<int>>.Of(() => Option<int>.Some(3)), IO<Option<int>>.Of(() => Option<int>.Some(3)), IO<Option<int>>.Of(() => Option<int>.Some(3)) };
+            var h = monadList.Fold(Option<int>.Some(0), (_, y) => _.FlatMap(f => y.Map(z => f + z)));
             const result = h;
             Console.WriteLine(result.GetOrElse(0)); // print 9
 
 
-           var pp =  h.Match(
+           const int pp =  h.Match(
             some: v => "The value is: " + v,
             none: () => "None");
 
