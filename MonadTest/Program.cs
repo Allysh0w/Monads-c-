@@ -94,7 +94,7 @@ namespace MonadTest
             Console.WriteLine(result.GetOrElse(0)); // print 9
 
 
-           const int pp =  h.Match(
+           const string pp =  h.Match(
             some: v => "The value is: " + v,
             none: () => "None");
 
