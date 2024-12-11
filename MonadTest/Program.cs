@@ -90,11 +90,11 @@ namespace MonadTest
 
             var monadList = new IO<Option<int>>[] { IO<Option<int>>.Of(() => Option<int>.Some(3)), IO<Option<int>>.Of(() => Option<int>.Some(3)), IO<Option<int>>.Of(() => Option<int>.Some(3)) };
             var h = monadList.Fold(Option<int>.Some(0), (_, y) => _.FlatMap(f => y.Map(z => f + z)));
-            const result = h;
+            var result = h;
             Console.WriteLine(result.GetOrElse(0)); // print 9
 
 
-           const string pp =  h.Match(
+           var string pp =  h.Match(
             some: v => "The value is: " + v,
             none: () => "None");
 
