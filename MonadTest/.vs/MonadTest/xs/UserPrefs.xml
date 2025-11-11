@@ -1,19 +1,21 @@
 ﻿<Properties StartupConfiguration="{42EFA792-BB96-4BA8-82B0-CBE071C94089}|Default">
   <MonoDevelop.Ide.ItemProperties.MonadTest PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Player.cs">
     <Files>
-      <File FileName="Program.cs" Line="25" Column="13" />
+      <File FileName="Program.cs" Line="13" Column="49" />
       <File FileName="Option.cs" Line="39" Column="10" />
       <File FileName="Monad.cs" Line="14" Column="43" />
       <File FileName="OptionExtensions.cs" Line="34" Column="18" />
       <File FileName="Examples.cs" Line="92" Column="63" />
+      <File FileName="Player.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MonadTest" expanded="True">
-            <Node name="Solution Items" expanded="True" />
-            <Node name="MonadTest" expanded="True" />
+            <Node name="MonadTest" expanded="True">
+              <Node name="Player.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

@@ -38,6 +38,7 @@
     <Compile Include="OptionExtensions.cs" />
     <Compile Include="Monad.cs" />
     <Compile Include="Examples.cs" />
+    <Compile Include="Player.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
