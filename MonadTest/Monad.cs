@@ -16,7 +16,7 @@ namespace MonadTest
             return new IO<T>(effect);
         }
 
-        public T Run()
+        public T Pure()
         {
             return _effect();
         }
@@ -28,7 +28,7 @@ namespace MonadTest
 
         public IO<R> FlatMap<R>(Func<T, IO<R>> func)
         {
-            return IO<R>.Of(() => func(_effect()).Run());
+            return IO<R>.Of(() => func(_effect()).Pure());
         }
 
         public T Reduce(T seed, Func<T, T, T> func)
@@ -49,7 +49,7 @@ namespace MonadTest
             T result = seed;
             foreach (var io in source)
             {
-                result = func(result, io.Run());
+                result = func(result, io.Pure());
             }
             return result;
         }
@@ -59,7 +59,7 @@ namespace MonadTest
             T result = seed;
             foreach (var io in source)
             {
-                result = func(result, io.Run());
+                result = func(result, io.Pure());
             }
             return result;
         }
