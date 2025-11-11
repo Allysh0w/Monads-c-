@@ -29,7 +29,7 @@ namespace MonadTest
             .Map(finalHit => Player.triggerTargetSpecialDefense(finalHit, player2.SpecialDefense, player2.Bonus));
 
             // must be const
-            var renderDamage = attackResult.Map(x => x.Match(
+            var renderDamage = attackResult.Map(x => x.Match( // can be x.GetOrElse("MISS") too
                 some: v => v.ToString(),
                 none: () => "MISS")
             );
