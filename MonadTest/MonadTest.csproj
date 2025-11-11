@@ -39,8 +39,5 @@
     <Compile Include="Monad.cs" />
     <Compile Include="Examples.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
