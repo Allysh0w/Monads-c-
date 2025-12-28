@@ -1,4 +1,4 @@
-﻿# 💡 Functional Monads for C#
+﻿# Functional Monads for C#
 
 A lightweight functional programming library for C# that introduces **monads** like `Option` and `IO`, inspired by functional languages such as **Scala** and **Haskell**.
 
@@ -6,7 +6,7 @@ This library aims to make functional programming concepts — purity, composabil
 
 ---
 
-## 📘 Table of Contents
+##  Table of Contents
 
 * [Motivation](#-motivation)
 * [Installation](#-installation)
@@ -21,7 +21,7 @@ This library aims to make functional programming concepts — purity, composabil
 
 ---
 
-## 🚀 Motivation
+## Motivation
 
 C# is a powerful language but primarily imperative.
 This library brings **functional programming** patterns that help you:
@@ -33,7 +33,7 @@ This library brings **functional programming** patterns that help you:
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Simply copy the following files into your project.
 No external dependencies are required.
@@ -48,7 +48,7 @@ MonadTest/
 
 ---
 
-## 🧠 Available Monads
+## Available Monads
 
 ### `Option<T>`
 
@@ -104,7 +104,7 @@ Console.WriteLine(totalDamage.Pure()); // 25
 
 ---
 
-## 🧩 Utility Functions
+## Utility Functions
 
 Common helpers that complement monadic behavior:
 
@@ -121,7 +121,7 @@ Additional helpers for collections of `Option` and `IO` include `Collect()`, `Fo
 
 ---
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### Example 1: Chaining Safe Computations
 
@@ -167,7 +167,7 @@ Console.WriteLine(result.GetOrElse(0)); // 9
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 | File                  | Description                                                |
 | --------------------- | ---------------------------------------------------------- |
@@ -178,7 +178,7 @@ Console.WriteLine(result.GetOrElse(0)); // 9
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 You are welcome to:
 
@@ -188,11 +188,11 @@ You are welcome to:
 
 ---
 
-## 🧾 License
+##  License
 
 This project is released under the **MIT License**.
 You are free to use, modify, and distribute it.
 
 ---
 
-> ✨ *Write C# in a functional, pure, and elegant way.*
+>  *Write C# in a functional, pure, and elegant way.*
